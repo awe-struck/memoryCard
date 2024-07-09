@@ -1,0 +1,16 @@
+@font-face {
+    font-family: gameBoyPokemon;
+    src: url('./fontStyles/PokemonClassic.ttf') format('truetype');
+}
+
+.pokeCard {
+    width: 150px;
+    height: 250px;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.pokeCard:hover {
+    cursor: url('./cursorStyles/cursor.cur'), auto;
+}
